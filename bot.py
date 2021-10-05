@@ -61,7 +61,7 @@ async def on_member_join(member):
 @client.command(aliases=['commands'])
 @commands.has_permissions(kick_members = True)
 async def h(ctx):
-    emb=discord.Embed(title="COMMANDS")
+    emb=discord.Embed(title="COMMANDS", colour = discord.Colour.red())
     
     emb.add_field(name='.clear (amount)', value='Clears chat, alternative (.c)', inline=False)
     emb.add_field(name='.kick (username)', value='Kicks member, alternative (.k)', inline=False)
