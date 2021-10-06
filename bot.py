@@ -112,7 +112,9 @@ async def giveaway(ctx):
 
     await ctx.send(f"the giveaway will be in {channel.mention} and will last {answers[1]}")
 
-    embed = discord.Embed(title = "Giveaway!", desciption = f"Enter to win: {prize}", colour = ctx.author.colour)
+    embed = discord.Embed(title = "Giveaway!", colour = ctx.author.colour)
+
+    embed.add_field(name = f"Enter to win:", value = f"{prize}")
 
     embed.set_image(url='https://i.ibb.co/GtxcnVy/Giveawayalien2.png')
 
