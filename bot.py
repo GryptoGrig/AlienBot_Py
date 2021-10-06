@@ -114,7 +114,7 @@ async def giveaway(ctx):
 
     embed = discord.Embed(title = "Giveaway!", desciption = f"Enter to win: {prize}", colour = ctx.author.colour)
 
-    embed.set_image(url='')
+    embed.set_image(url='https://i.ibb.co/GtxcnVy/Giveawayalien2.png')
 
     embed.add_field(name = "Hosted by:", value = ctx.author.mention)
 
