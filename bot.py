@@ -116,7 +116,7 @@ async def giveaway(ctx):
 
     embed.add_field(name = f"Enter to win:", value = f"{prize}")
 
-    embed.set_image(url='https://i.ibb.co/GtxcnVy/Giveawayalien2.png')
+    embed.set_image(url='https://i.imgur.com/2EsX9CL.png')
 
     embed.add_field(name = "Hosted by:", value = ctx.author.mention)
 
